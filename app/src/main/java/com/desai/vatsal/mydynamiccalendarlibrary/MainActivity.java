@@ -66,11 +66,11 @@ public class MainActivity extends AppCompatActivity {
         myCalendar.setWeekDayLayoutTextColor("#246245");
 //        myCalendar.setWeekDayLayoutTextColor(R.color.black);
 
-//        myCalendar.isSaturdayOff(true, "null", "#ff0000");
-//        myCalendar.isSaturdayOff(true, -1, R.color.red);
+        myCalendar.isSaturdayOff(true, "#ffffff", "#ff0000");
+        myCalendar.isSaturdayOff(true, R.color.white, R.color.red);
 
-//        myCalendar.isSundayOff(true, "#658745", "#254632");
-//        myCalendar.isSundayOff(true, -1, getResources().getColor(R.color.red));
+        myCalendar.isSundayOff(true, "#658745", "#254632");
+        myCalendar.isSundayOff(true, R.color.white, R.color.red);
 
         myCalendar.setExtraDatesOfMonthBackgroundColor("#324568");
 //        myCalendar.setExtraDatesOfMonthBackgroundColor(R.color.black);

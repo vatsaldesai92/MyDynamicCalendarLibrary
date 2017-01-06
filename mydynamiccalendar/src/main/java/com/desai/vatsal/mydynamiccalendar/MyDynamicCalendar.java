@@ -249,12 +249,12 @@ public class MyDynamicCalendar extends LinearLayout {
 
     public void isSaturdayOff(boolean b, String layoutcolor, String textcolor) {
         if (b) {
-            if (!TextUtils.isEmpty(layoutcolor) && !TextUtils.isEmpty(textcolor)) {
+//            if (!TextUtils.isEmpty(layoutcolor) && !TextUtils.isEmpty(textcolor)) {
                 AppConstants.isSaturdayOff = true;
                 AppConstants.strSaturdayOffBackgroundColor = layoutcolor;
                 AppConstants.strSaturdayOffTextColor = textcolor;
                 tv_sat.setTextColor(Color.parseColor(textcolor));
-            }
+//            }
         }
     }
 

@@ -4,11 +4,13 @@ This is an Android Library for developer to use customized calendar with all typ
 Example is available in app module.
 
 <p>
-<img src="https://github.com/vatsaldesai92/MyDynamicRecyclerviewLibrary/blob/master/app/src/main/assets/1.png" alt="screenshot" width="270">
+<img src="https://github.com/vatsaldesai92/MyDynamicCalendarLibrary/blob/master/app/src/main/assets/1.png" alt="screenshot" width="270">
 
-<img src="https://github.com/vatsaldesai92/MyDynamicRecyclerviewLibrary/blob/master/app/src/main/assets/2.png" alt="screenshot" width="270">
+<img src="https://github.com/vatsaldesai92/MyDynamicCalendarLibrary/blob/master/app/src/main/assets/2.png" alt="screenshot" width="270">
 
-<img src="https://github.com/vatsaldesai92/MyDynamicRecyclerviewLibrary/blob/master/app/src/main/assets/3.png" alt="screenshot" width="270">
+<img src="https://github.com/vatsaldesai92/MyDynamicCalendarLibrary/blob/master/app/src/main/assets/3.png" alt="screenshot" width="270">
+
+<img src="https://github.com/vatsaldesai92/MyDynamicCalendarLibrary/blob/master/app/src/main/assets/4.png" alt="screenshot" width="270">
 </p>
 
 ##Download
@@ -58,6 +60,17 @@ dependencies {
     myCalendar.setCurrentDateTextColor("#00e600");
     myCalendar.setBelowMonthEventTextColor("#425684");
     myCalendar.setBelowMonthEventDividerColor("#635478");
+~~~
+
+- Manage Saturday & Sunday
+~~~
+   // set all saturday off(Holiday) - default value is false
+   // isSaturdayOff(true/false, date_background_color, date_text_color);
+   myCalendar.isSaturdayOff(true, "#ffffff", "#ff0000");
+
+   // set all sunday off(Holiday) - default value is false
+   // isSundayOff(true/false, date_background_color, date_text_color);
+   myCalendar.isSundayOff(true, "#ffffff", "#ff0000");
 ~~~
 
 - Manage Events
